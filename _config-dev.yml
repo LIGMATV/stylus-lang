@@ -1,0 +1,2 @@
+debug: true
+production_url: //localhost:4000

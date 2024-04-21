@@ -1,0 +1,78 @@
+markdown: kramdown
+safe: false
+
+permalink: /:categories/:title
+relative_permalinks: false
+
+## Exculding all the extra things from the submodule
+exclude: ['bin', 'examples', 'lib', 'test', 'bm.js', 'index.js', 'Makefile', 'Gemfile', 'package.json', '*.sublime-project', 'node_modules']
+
+## Uncomment and set your GitHub username to enable absolute links
+# github_user: kizu
+
+## Production URL (if different from default GitHub Pages one)
+production_url: //stylus-lang.com
+
+## Comment out if (in absence of above fields) you'd like to use absolute `/` links
+relative_urls_when_possible: true
+
+menu:
+    - docs/selectors.html
+    - docs/variables.html
+    - docs/interpolation.html
+    - docs/operators.html
+    - docs/mixins.html
+    - docs/functions.html
+    - docs/kwargs.html
+    - docs/bifs.html
+    - docs/vargs.html
+    - docs/comments.html
+    - docs/conditionals.html
+    - docs/hashes.html
+    - docs/iteration.html
+    - docs/import.html
+    - docs/media.html
+    - docs/font-face.html
+    - docs/keyframes.html
+    - docs/atrules.html
+    - docs/extend.html
+    - docs/block.html
+    - docs/functions.url.html
+    - docs/literal.html
+    - docs/css-style.html
+    - docs/escape.html
+    - docs/executable.html
+    - docs/error-reporting.html
+    - docs/middleware.html
+    - docs/introspection.html
+    - docs/js.html
+    - docs/sourcemaps.html
+
+link_handles:
+    - prefix: "@"
+      handle: "https://twitter.com/"
+    - prefix: "gh:"
+      handle: "https://github.com/"
+
+## Unquote to set classes to quoted links instead of inline attributes
+# quoted_link_wrapper_class: link link-wrapper
+# quoted_link_inner_class: link-inner
+
+
+## Localization
+langs:
+    - en
+    # - ru
+
+default_lang: en
+
+loc:
+    link_to_part:
+        ru: "Ссылка на это место"
+        en: "Link to this place"
+    laquo:
+        ru: "«"
+        en: "“"
+    raquo:
+        ru: "»"
+        en: "”"
